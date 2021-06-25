@@ -1,0 +1,29 @@
+mat-card-content{
+    padding: 16px;
+}
+
+.card{
+    width: 100%;
+}
+
+mat-grid-tile{
+    width: 100%;
+}
+
+.carro{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.conteudo-carro{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+table{
+    margin-top: 16px;
+    width: 100%;
+}

@@ -1,0 +1,39 @@
+<mat-card>
+    <mat-card-title> Novo Carro </mat-card-title>
+    <mat-card-content>  
+        <div class="carro">
+          <mat-card>
+            <mat-card-content>
+              <div class="conteudo-carro">
+                <div class="conteudo-carro">                  
+                <mat-form-field>
+                  <!-- <mat-label for="data">Modelo do Carro</mat-label> -->
+                  <input matInput placeholder="Modelo" type="text" name="data" [(ngModel)]="modelo" />
+                </mat-form-field>
+              </div>
+                <div class="conteudo-carro">
+                <mat-form-field>
+                  <!-- <mat-label for="data">Placa do Carro</mat-label> -->
+                  <input matInput placeholder="Placa" type="text" name="data" [(ngModel)]="placa" />
+                </mat-form-field>
+              </div>
+                <div class="conteudo-carro">
+                <mat-form-field>
+                  <!-- <mat-label for="data">Ano do Carro</mat-label> -->
+                  <input matInput placeholder="Ano" type="number" name="data" [(ngModel)]="ano" />
+                </mat-form-field>    
+              </div>            
+              </div>
+              
+            </mat-card-content>
+          </mat-card>
+        </div>       
+      
+  
+      <mat-card-actions>
+        <button mat-raised-button color="warn" (click)="cadastrar()">Cadastrar</button>
+        <a mat-stroked-button routerLink=""> Listar Carros </a>
+      </mat-card-actions>
+    </mat-card-content>
+  </mat-card>
+  
